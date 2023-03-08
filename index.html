@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Orvature</title>
+    <!-- 
+        link to google fonts
+     -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Della+Respira&family=Epilogue:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <!-- 
+        link to css file
+     -->
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <header role="banner">
+        <!-- adds skip links -->
+       <a href="#main-skip" class="skip">Skip to main content</a>
+       <!-- adds wrapper to header part to center align content -->
+       <div class="header_ container">
+           <div class="header">
+               <img class="logo" src="images/logo.png" alt="Orvature logo">
+               <br>
+               <div class="navigation_bar">
+                   <!-- adds navigation menu for website -->
+                   <nav role="menubar">
+                       <ul>
+                           <li role="menuitem"><a class="home" href="index.html">Home</a></li>
+                           <li role="menuitem"><a href="contact.html">Contact</a></li>
+                           <li role="menuitem"><a href="about.html">About</a></li>
+                       </ul>
+                   </nav>
+               </div>
+           </div>
+       </div>
+       <hr>
+   </header>
+   <main role="banner">
+        <!-- adds wrapper to main content part to center align content -->
+        <div class="main_container">
+            <div class="photography" id="main-skip">
+                <div class="macro photos">
+                    <h2>Macro Photography</h2> <hr>
+                   <!-- adding images which are responsive to screen size -->
+                    <picture>
+                        <source media="(min-width: 960px)" srcset="images/macroinsect.jpg">
+                        <source media="(max-width: 960px)" srcset="images/macroinsect50w.jpg">
+                        <img src="images/macroinsect.jpg" alt="images of macro photography">
+                    </picture>
+                    <p>Macro photography is a type of photography that involves capturing extreme close-up images of small subjects or details. In macro photography, the subject is typically magnified to life size or greater, revealing details that may not be visible to the naked eye.</p>
+                </div>
+                <div class="street photos">
+                    <h2>Street Photography</h2> <hr>
+                   <!-- adding images which are responsive to screen size -->
+                    <picture>
+                        <source media="(min-width: 960px)" srcset="images/street1.jpg">
+                        <source media="(max-width: 960px)" srcset="images/street1_50w.jpg">
+                        <img src="images/street1.jpg" alt="image of street photography">
+                    </picture>
+                    <p>Street photography is a genre of photography that involves capturing candid and unposed photographs of people, objects, and events in public places. The subjects of street photography are often ordinary people going about their daily lives, and the photographs may be taken in urban or rural environments.</p>
+                </div>
+                <div class="creative photos">
+                    <h2>Creative Photography</h2> <hr>
+                   <!-- adding images which are responsive to screen size -->
+                    <picture>
+                        <source media="(min-width: 960px)" srcset="images/creative2.jpg">
+                        <source media="(max-width: 960px)" srcset="images/creative2_50w.jpg">
+                        <img src="images/creative2.jpg" alt="image of creative photography">
+                    </picture>
+                    <p>Creative photography is a type of photography that uses optical illusions, creative techniques, and post-processing to create images that challenge our perceptions and deceive our senses. The goal of creative photography is to create photographs that appear to be something that they are not, or to create a sense of ambiguity or mystery in the image.</p>
+                </div>
+                <hr id="blog_hr">
+            </div>
+            <h2 id="blog_title">Blog</h2>
+            <hr>
+                <div class="blog">
+                    <div class="gadgets">                    
+                        <h3>Gadgets</h3>
+                        <p>The Canon M50 Mark II and Sony A7 III are both popular choices among photographers, and each camera has its own unique features and advantages. <br>
+                            The Canon M50 Mark II is a mirrorless camera that offers high-quality image and video capabilities in a compact and lightweight design. It features a 24.1-megapixel APS-C sensor, DIGIC 8 image processor, and Dual Pixel CMOS AF system for fast and accurate autofocus. The camera also has a vari-angle touchscreen LCD and built-in Wi-Fi and Bluetooth for easy sharing of photos and videos. <br>
+                            The Sony A7 III is a full-frame mirrorless camera that offers exceptional image quality and performance. It features a 24.2 megapixel back-illuminated Exmor R CMOS sensor, BIONZ X image processor, and 693-point phase-detection autofocus system. The camera also has a 5-axis image stabilization system, high-speed continuous shooting up to 10 fps, and 4K video recording capabilities.
+                        </p>
+                        <img src="images/a7iii.jpg" alt="photo of sony">
+                    </div>
+                    <div class="softwares">
+                        <h3>Software</h3>
+                        <p>Lightroom and Photoshop are both powerful software tools that are commonly used by us. <br>
+                            Lightroom is a photo management and editing software that allows photographers to organize, edit, and share their photos all in one place. It offers a wide range of features for color correction, exposure adjustments, noise reduction, and more. Lightroom also can batch process photos, which can save photographers a significant amount of time when working with large numbers of images. <br>
+                            Photoshop, on the other hand, is a more advanced image editing software that offers even greater control over image editing and manipulation. It is commonly used for tasks such as compositing, retouching, and creating graphic designs. Photoshop offers a wide range of tools and features, such as layers, masks, and brushes, that allow photographers to make precise adjustments to their images.
+                        </p>
+                        <img src="images/adobe.jpg" alt="photo of adobe">   
+                    </div>
+
+
+                </div>
+        </div>
+    </main>
+   <footer role="banner">
+    <!-- adds wrapper to footer part to center align content -->
+    <div class="footer_conatiner">
+        <div class="foot">
+            <p>COPYRIGHT © 2023 ORVATURE </p>
+        </div>
+    </div>
+</footer>
+</body>
+</html>
