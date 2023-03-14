@@ -287,12 +287,13 @@ hr{
         justify-content: center;
     }
 
-    /* aligning content in main and footer with wraper */
+    /* aligning content in main and footer from wraper */
     .main_container,.footer_container{
         width: 80%;
         margin: auto;
         justify-content: center;
     }
+
 
     .macro{ grid-area: p1}
     .street{ grid-area: p2;}
